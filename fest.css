@@ -16,3 +16,44 @@
 .top div i{
     padding-right: 10px;
 }
+section header nav{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+section header nav ul{
+    display: flex;
+}
+section header nav ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+section p,h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .venue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h1{
+    font-size: 71px;
+    margin-bottom: 30px;
+}
+section .venue h2{
+    padding: 70px;
+}
+section .venue .date ,.place ,.social{
+    position: relative;
+}
+section .venue .date > i{
+    position: absolute;
+    top: 80px;
+}
+section .venue .place > i{
+    position: absolute;
+    top: 80px;
+}
